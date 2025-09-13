@@ -1,27 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Magnolia Cotton Co.</title>
-  <style>
-    body { font-family: Arial, sans-serif; text-align: center; background: #f8f8f8; margin: 0; }
-    header { background: #013220; color: #fff; padding: 2rem; }
-    h1 { margin: 0; }
-    .btn { display: inline-block; margin: 2rem; padding: 1rem 2rem; background: #013220; color: #fff; text-decoration: none; border-radius: 5px; }
-    .btn:hover { background: #025a2d; }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Magnolia Cotton Co. — Southern Made. Porch-Tested.</title>
+
+  <!-- SEO -->
+  <meta name="description" content="Magnolia Cotton Co. — Southern-made Comfort Colors tees, hats, and goods. Porch-Tested quality with classic Southern style." />
+  <meta name="robots" content="index,follow" />
+  <link rel="canonical" href="https://director-lawtonb23.github.io/" />
+
+  <!-- Open Graph for social -->
+  <meta property="og:title" content="Magnolia Cotton Co." />
+  <meta property="og:description" content="Southern Made. Porch-Tested." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://director-lawtonb23.github.io/" />
+  <meta property="og:image" content="assets/og-hero.jpg" />
+
+  <link rel="icon" href="assets/favicon.png" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header>
-    <h1>Magnolia Cotton Co.</h1>
-    <p>Southern Made. Porch-Tested.</p>
+  <header class="site-header">
+    <div class="wrap">
+      <a href="#" class="brand">
+        <img src="assets/logo.png" alt="Magnolia Cotton Co." class="logo" />
+      </a>
+      <nav class="nav">
+        <a href="#shop">Shop</a>
+        <a href="#about">About</a>
+        <a href="#guarantee">Guarantee</a>
+        <a href="#follow">Follow</a>
+      </nav>
+      <button class="menu" aria-label="Menu">☰</button>
+    </div>
   </header>
 
-  <main>
-    <h2>Our Store is Live!</h2>
-    <p>Shop our Comfort Colors tees, hats, and more.</p>
-    <a class="btn" href="https://magnoliacottonco.com" target="_blank">Shop Now</a>
-  </main>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-inner">
+      <h1>Southern Made. Porch-Tested.</h1>
+      <p>Comfort Colors pocket tees, hats, and everyday goods built for front-porch sittin’ and Saturday tailgates.</p>
+      <div class="cta-row">
+        <a class="btn primary cta" href="https://magnoliacottonco.myshopify.com/collections/all" data-outbound>Shop Best Sellers</a>
+        <a class="btn" href="#shop">Preview Drops</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="features" id="about">
+    <div class="wrap">
+      <div class="feature">
+        <h3>Comfort First</h3>
+        <p>Soft-wash, heavy-weight tees that feel like home the first wear.</p>
+      </div>
+      <div class="feature">
+        <h3>Built to Last</h3>
+        <p>Quality prints and stitching that hold up from dock to driveway.</p>
+      </div>
+      <div class="feature">
+        <h3>Southern Story</h3>
+        <p>Designs rooted in hometown pride, lake days, and game day Saturdays.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCT PREVIEW GRID -->
+  <section class="products" id="shop">
+    <div class="wrap">
+      <h2>Best Sellers</h2>
+      <div class="grid">
+        <!-- CARD 1 -->
+        <<article class="card">
+  <img src="assets/prod-tee-1.jpg" alt="Comfort Colors Pocket Tee" />
+  <h3>Comfort Colors Pocket Tee</h3>
+  <p>Classic fit. Front badge. Big back art.</p>
+  <a class="btn small" href="https://magnoliacottonco.myshopify.com/products/magnolia-cotton-co-rise-up-georgia-football-tee-comfort-colors" data-outbound>Buy Now</a>
+</article>
+
+        <!-- CARD 2 -->
+        <article class="card">
+          <img src="assets/prod-tee-2.jpg" alt="Game Day Tee" />
+          <h3>Game Day Tee</h3>
+          <p>Tailgate-ready colors. Porch-tested comfort.</p>
+          <a class="btn small" href="https://magnoliacottonco.myshopify.com/products/magnolia-cotton-co-standing-on-saturdays-pocket-tee-magnolia-white" data-outbound>Buy Now</a>
+        </article>
+
+        <!-- CARD 3 -->
+        <article class="card">
+          <img src="assets/prod-hat-1.jpg" alt="Dad Hat" />
+          <h3>Everyday Dad Hat</h3>
+          <p>Low-profile, clean embroidery. Goes with everything.</p>
+          <a class="btn small" href="https://magnoliacottonco.myshopify.com/products/trucker-cap-6" data-outbound>Buy Now</a>
+        </article>
+      </div>
+
+      <p class="center">
+        <a class="btn" href="https://magnoliacottonco.myshopify.com/collections" data-outbound>See All Products</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- GUARANTEE / PROOF -->
+  <section class="guarantee" id="guarantee">
+    <div class="wrap">
+      <h2>Our Porch-Promise</h2>
+      <ul>
+        <li>✅ 30-Day Easy Exchanges</li>
+        <li>✅ Printful-powered fulfillment & tracking</li>
+        <li>✅ Quality you can feel on day one</li>
+      </ul>
+      <p class="sub">Questions? <a href="mailto:director@magnoliacottonco.com">Email us</a> — we answer fast.</p>
+    </div>
+  </section>
+
+  <!-- SOCIALS -->
+  <section class="socials" id="follow">
+    <div class="wrap">
+      <h2>Follow the Story</h2>
+      <div class="social-row">
+        <a class="social" href="https://instagram.com/Magnolia_Cotton_Co" target="_blank" rel="noopener">Instagram</a>
+        <a class="social" href="https://facebook.com/magnolia_cotton_co" target="_blank" rel="noopener">Facebook</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>© <span id="year"></span> Magnolia Cotton Co. • Southern Made. Porch-Tested.</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+
+  <!-- OPTIONAL: drop your GA4/Meta/TikTok pixels here later -->
 </body>
 </html>
